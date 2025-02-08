@@ -65,17 +65,41 @@
 
 
 import express from 'express';
-import bodyParser from 'body-parser'
+import bodyParser from 'body-parser';
+import logger from "./logger.js";
+import morgan from "morgan";
 const app = express();
 import userRoutes from './Routes/users.js'
 
+
+const morganFormat = ":method :url :status :response-time ms";
+
 const PORT = 5000;
 
+
+app.use(
+    morgan(morganFormat, {
+      stream: {
+        write: (message) => {
+          const logObject = {
+            method: message.split(" ")[0],
+            url: message.split(" ")[1],
+            status: message.split(" ")[2],
+            responseTime: message.split(" ")[3],
+          };
+          logger.info(JSON.stringify(logObject));
+        },
+      },
+    })
+  );
 app.use(bodyParser.json());
 
 app.use('/users', userRoutes);
 
 app.get('/', (req, res) => res.send('HELLO FROM HOMEPAGE'))
+ 
+logger.info(`A request is send to make a new logger request`)
+logger.warn(`A request is send to make a new logger request`)
 
 // app.get('/', (req, res));
 

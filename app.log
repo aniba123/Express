@@ -1,0 +1,12 @@
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/eff36ced-6bc4-4d86-bdb5-ba642dba63ea\",\"status\":\"200\",\"responseTime\":\"34.213\"}","timestamp":"2024-12-29T02:45:32.045Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"3.723\"}","timestamp":"2024-12-29T02:45:39.382Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"3.085\"}","timestamp":"2024-12-29T02:48:04.801Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"0.936\"}","timestamp":"2024-12-29T02:48:17.994Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"1.628\"}","timestamp":"2024-12-29T02:48:42.954Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"0.907\"}","timestamp":"2024-12-29T02:48:50.295Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"0.790\"}","timestamp":"2024-12-29T02:49:03.858Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"0.851\"}","timestamp":"2024-12-29T02:49:09.459Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"GET\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"2.263\"}","timestamp":"2024-12-29T02:49:19.499Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"{\"method\":\"POST\",\"url\":\"/users/\",\"status\":\"200\",\"responseTime\":\"1.484\"}","timestamp":"2024-12-29T02:53:28.474Z"}
+{"level":"\u001b[32minfo\u001b[39m","message":"A request is send to make a new logger request","timestamp":"2024-12-29T17:07:30.536Z"}
+{"level":"\u001b[33mwarn\u001b[39m","message":"A request is send to make a new logger request","timestamp":"2024-12-29T17:07:30.539Z"}
